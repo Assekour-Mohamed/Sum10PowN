@@ -1,0 +1,12 @@
+algorithme Sum10POWN  
+variables 
+  m,i,s :entier
+ debut 
+  ecrire("enter the number")
+  lire(m)
+  i <- 2
+  s<- 10
+  tant que i<10 faire
+    s=s+10^i
+  fintantque
+fin
